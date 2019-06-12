@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400; /* normal thickness */
+}
+
+
+body {
+    background-color: #fff;
+}
+
+
+header {
+    background: rgb(73, 3, 73);
+    margin-bottom: 20px;
+    
+    position: fixed;
+    width: 100%;
+}
+
+.container {
+    width: 90%; /* prevents container from reaching all the way L or R */
+    margin: 0 auto; /* sets the vertical margin to 0, horizontal to work w/ width */
+}
+
+
+header .container p{
+    float: left; /* makes the logo on the left side */
+
+    margin: 13px 0;
+    border: solid 2px white;
+    padding: 5px 20px;
+    color: white;
+}
+
+
+nav {
+    float: right; /* right side of the bar */
+}
+    nav ul {
+         list-style: none;
+    }
+
+    nav li {
+        display: inline-block; /* allows text alignment to be used */
+        margin: 20px 0px 20px 30px; /* top, right, bottom, left */   
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    nav ul li a:hover {
+        color: rgb(165, 161, 161);
+    }
+
+
+footer .container{
+    width: 93%;
+    margin: 20px auto 10px auto;
+
+    padding: 10px;
+    border-top: solid 1px black;
+    text-align: center;
+}
