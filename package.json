@@ -1,0 +1,23 @@
+{
+  "name": "if",
+  "version": "1.0.0",
+  "description": "Testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgusinov/IF.git"
+  },
+  "author": "Max Gusinov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgusinov/IF/issues"
+  },
+  "homepage": "https://github.com/mgusinov/IF#readme",
+  "dependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
