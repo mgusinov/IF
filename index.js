@@ -14,8 +14,10 @@ const server = http.createServer((req, res) => {
     // }
 
     //Dynamic File Path
-    let filePath = path.join(__dirname, 'View', req.url === '/' ?
-    'index.html' : "../" + req.url);
+    console.log('---------------------------------');
+    console.log('Dir name: ', __dirname);
+    let filePath = path.join(__dirname, req.url === '/' ?
+    'View/index.html' : req.url);
 
     //Extension of file
     let extName = path.extname(filePath);
